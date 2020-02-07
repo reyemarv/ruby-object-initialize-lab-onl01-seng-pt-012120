@@ -4,7 +4,7 @@ class Dog
    @name = name
    if @breed = breed
      @breed 
-   else "Mutt"
+   else puts "Mutt"
    end 
   end 
   
