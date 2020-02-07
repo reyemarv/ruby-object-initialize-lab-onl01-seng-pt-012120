@@ -4,7 +4,7 @@ class Dog
    @name = name
    unless breed = breed.empty?
    then breed = "Mutt"
- else breed = @breed 
+ else @breed = breed 
  end 
   end 
   
