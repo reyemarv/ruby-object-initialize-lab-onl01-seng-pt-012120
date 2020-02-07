@@ -9,7 +9,9 @@ class Dog
     @name
   end 
   
-  def breed 
-     @breed 
+  def breed(new_breed)
+     if new_breed = @breed 
+       @breed
+     else new_breed = "Mutt"
    end 
 end 
