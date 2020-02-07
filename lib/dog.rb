@@ -5,6 +5,7 @@ class Dog
    if @breed = breed
      @breed 
    else "Mutt"
+   end 
   end 
   
   def name
