@@ -4,6 +4,7 @@ class Dog
    @name = name
   unless @breed = "Mutt"
    then @breed = breed 
+ end 
   end 
   
   def name
